@@ -1,0 +1,20 @@
+{
+  "name": "img111",
+  "version": "1.0.0",
+  "description": "This app generate images",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "unsplash",
+    "developer",
+    "image"
+  ],
+  "author": "Nurmuhammad O'rinboyev",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img-generator</title>
+    <link
+    rel="stylesheet"
+    href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+  />
+</head>
+<body>
+    <div class="container p-sm-5 p-3 text-center ">
+        <h1 class="text text-center ">Image Search App</h1>
+        <br>
+        <form id="searchForm" class="d-flex justify-content-center w-100 my-5">
+            <div class="form-group w-md-50 w-50 ">
+              <input
+                type="text"
+                class="form-control"
+                id="searchInput"
+                aria-describedby="emailHelp"
+                placeholder="Enter Image URL"
+              />
+            </div>
+            <button id="searchButton" type="submit" class="btn btn-primary ml-5">
+              Submit
+            </button>
+          </form>
+        
+          <main id="resultsContainer" class="row"></main>
+          <div>
+            <button id="showmore" class="btn btn-primary">Show more</button>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
